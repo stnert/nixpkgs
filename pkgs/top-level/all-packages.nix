@@ -1772,6 +1772,7 @@ with pkgs;
   lilo = callPackage ../tools/misc/lilo { };
 
   logseq = callPackage ../applications/misc/logseq {
+    openssl = openssl_1_1;
     electron = electron_15;
   };
 
