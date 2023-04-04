@@ -2,15 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     ffi (1.15.0)
-    google-protobuf (3.15.6)
+    google-protobuf (3.22.2)
     libusb (0.6.4)
       ffi (~> 1.0)
       mini_portile2 (~> 2.1)
-    mini_portile2 (2.5.0)
-    nokogiri (1.11.2)
-      mini_portile2 (~> 2.5.0)
+    mini_portile2 (2.8.1)
+    nokogiri (1.14.2)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    racc (1.5.2)
+    racc (1.6.2)
     rubyserial (0.6.0)
       ffi (~> 1.9, >= 1.9.3)
 
@@ -18,9 +18,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  google-protobuf
+  google-protobuf (>= 3.19.6)
   libusb
-  nokogiri
+  nokogiri (>= 1.13.9)
   rubyserial
 
 BUNDLED WITH
