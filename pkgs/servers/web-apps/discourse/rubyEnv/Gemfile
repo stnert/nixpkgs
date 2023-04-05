@@ -31,7 +31,7 @@ end
 
 gem 'json'
 
-gem 'sprockets'
+gem 'sprockets', '>= 4.2.0'
 
 # this will eventually be added to rails,
 # allows us to precompile all our templates in the unicorn master
@@ -90,18 +90,18 @@ gem 'email_reply_trimmer'
 gem 'image_optim'
 gem 'multi_json'
 gem 'mustache'
-gem 'nokogiri'
-gem 'loofah'
+gem 'nokogiri', '>= 1.13.9'
+gem 'loofah', '>= 2.19.1'
 gem 'css_parser', require: false
 
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.0'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 2.0.0'
 
 gem 'omniauth-oauth2', require: false
 
-gem 'omniauth-google-oauth2'
+gem 'omniauth-google-oauth2', '>= 1.0.0'
 
 gem 'oj'
 
@@ -113,9 +113,9 @@ gem 'r2', require: false
 gem 'rake'
 
 gem 'thor', require: false
-gem 'diffy', require: false
+gem 'diffy', '>= 3.4.1', require: false
 gem 'rinku'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.0'
 gem 'mini_scheduler'
 
 gem 'execjs', require: false
@@ -123,7 +123,7 @@ gem 'mini_racer'
 
 gem 'highline', require: false
 
-gem 'rack', '>= 2.2.6.4'
+gem 'rack', '>= 3.0.0'
 
 gem 'rack-protection' # security
 gem 'cbor', require: false
@@ -247,7 +247,7 @@ gem 'sshkey', require: false
 gem 'rchardet', require: false
 gem 'lz4-ruby', require: false, platform: :ruby
 
-gem 'sanitize'
+gem 'sanitize', '>= 6.0.1'
 
 if ENV["IMPORT"] == "1"
   gem 'mysql2'
