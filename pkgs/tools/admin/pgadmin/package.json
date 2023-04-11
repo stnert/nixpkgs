@@ -87,7 +87,7 @@
     "@material-ui/lab": "4.0.0-alpha.58",
     "@material-ui/pickers": "^3.2.10",
     "@mui/icons-material": "^5.4.2",
-    "@mui/material": "^5.4.3",
+    "@mui/material": "^5.11.8",
     "@projectstorm/react-diagrams": "^6.6.1",
     "@simonwep/pickr": "^1.5.1",
     "@szhsin/react-menu": "^2.2.0",
