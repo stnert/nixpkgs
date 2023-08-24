@@ -10,7 +10,7 @@ group :development, :test do
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
   gem 'unicode-scripts'
-  gem 'edtf'
+  gem 'edtf', '>= 3.0.6'
   gem 'citeproc'
   gem 'unicode_utils' if RUBY_VERSION < '2.4'
 end
