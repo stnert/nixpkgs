@@ -50,7 +50,8 @@
     "@yetzt/nedb": "^1.8.0",
     "node-forge": "^1.0.0",
     "ws": "^5.2.3",
-    "yauzl": "^2.10.0"
+    "yauzl": "^2.10.0",
+    "@snyk/protect": "latest"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -124,5 +125,10 @@
     "modern-syslog": "*",
     "syslog": "*",
     "heapdump": "*"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
