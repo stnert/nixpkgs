@@ -286,7 +286,7 @@ gem 'fast_blank'
 gem 'gitlab-chronic', '~> 0.10.5'
 gem 'gitlab_chronic_duration', '~> 0.10.6.2'
 
-gem 'rack-proxy', '~> 0.7.6'
+gem 'rack-proxy', '~> 0.7.7'
 
 gem 'sassc-rails', '~> 2.1.2'
 gem 'autoprefixer-rails', '10.2.5.1'
