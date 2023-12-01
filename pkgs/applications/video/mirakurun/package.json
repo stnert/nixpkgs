@@ -66,7 +66,7 @@
     "eventemitter3": "^4.0.7",
     "express": "^4.17.1",
     "express-openapi": "^8.0.0",
-    "glob": "^7.1.7",
+    "glob": "^9.0.0",
     "ip": "^1.1.4",
     "js-yaml": "^4.1.0",
     "latest-version": "^5.1.0",
