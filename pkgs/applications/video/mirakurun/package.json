@@ -67,7 +67,7 @@
     "express": "^4.17.1",
     "express-openapi": "^8.0.0",
     "glob": "^7.1.7",
-    "ip": "^1.1.4",
+    "ip": "^1.1.9",
     "js-yaml": "^4.1.0",
     "latest-version": "^5.1.0",
     "morgan": "^1.10.0",
