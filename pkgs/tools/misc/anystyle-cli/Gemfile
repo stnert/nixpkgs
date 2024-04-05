@@ -33,5 +33,5 @@ group :extra do
   gem 'lmdb'
   gem 'redis'
   gem 'redis-namespace'
-  gem 'yard'
+  gem 'yard', '>= 0.9.35'
 end
