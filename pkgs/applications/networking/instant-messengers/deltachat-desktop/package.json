@@ -48,7 +48,7 @@
     "@types/url-parse": "^1.4.3",
     "electron": "^18.0.3",
     "esbuild": "^0.12.29",
-    "glob-watcher": "^5.0.5",
+    "glob-watcher": "^6.0.0",
     "sass": "^1.26.5",
     "typescript": "^4.4.4",
     "xml-js": "^1.6.8"
