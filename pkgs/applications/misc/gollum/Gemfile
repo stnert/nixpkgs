@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'gollum'
+gem 'gollum', '>= 5.3.2'
 
 # Support for extra markups
 gem 'asciidoctor' # AsciiDoc
