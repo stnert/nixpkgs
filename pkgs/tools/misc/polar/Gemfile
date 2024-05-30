@@ -3,5 +3,5 @@ source 'https://rubygems.org'
 gem 'google-protobuf', '>= 3.19.6'
 gem 'libusb'
 gem 'rubyserial'
-gem 'nokogiri', '>= 1.13.9'
+gem 'nokogiri', '>= 1.16.5'
 
