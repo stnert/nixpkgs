@@ -21,7 +21,7 @@
         "minimist": "^1.2.6",
         "node-fetch": "^3.2.3",
         "tweetnacl": "^1.0.3",
-        "ws": "^8.5.0"
+        "ws": "^8.17.1"
     },
     "devDependencies": {
         "@types/mdns": "^0.0.34",
