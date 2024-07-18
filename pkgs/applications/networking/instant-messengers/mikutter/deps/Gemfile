@@ -24,7 +24,7 @@ group :test do
   gem 'test-unit','>= 3.3.4', '< 4.0'
   gem 'rake','>= 13.0.1'
   gem 'mocha','>= 1.11.1'
-  gem 'webmock', '>= 3.12.2'
+  gem 'webmock', '>= 3.19.0'
   gem 'ruby-prof','>= 1.1.0'
 end
 
