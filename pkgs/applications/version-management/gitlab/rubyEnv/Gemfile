@@ -23,7 +23,7 @@ gem 'rugged', '~> 1.2'
 gem 'grape-path-helpers', '~> 1.7.1'
 
 gem 'faraday', '~> 1.0'
-gem 'marginalia', '~> 1.10.1'
+gem 'marginalia', '~> 1.11.0'
 
 # Authorization
 gem 'declarative_policy', '~> 1.1.0'
@@ -192,7 +192,7 @@ group :puma do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.8.0'
+gem 'state_machines-activerecord', '~> 0.9.0'
 
 # CI domain tags
 gem 'acts-as-taggable-on', '~> 9.0', '>= 9.0.0'
@@ -428,7 +428,7 @@ end
 group :test do
   gem 'fuubar', '~> 2.2.0'
   gem 'rspec-retry', '~> 0.6.1'
-  gem 'rspec_profiling', '~> 0.0.6'
+  gem 'rspec_profiling', '~> 0.0.7'
   gem 'rspec-benchmark', '~> 0.6.0'
   gem 'rspec-parameterized', require: false
 
