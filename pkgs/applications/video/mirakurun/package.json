@@ -64,7 +64,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.6.0",
     "eventemitter3": "^4.0.7",
-    "express": "^4.17.1",
+    "express": "^4.21.0",
     "express-openapi": "^8.0.0",
     "glob": "^7.1.7",
     "ip": "^1.1.4",
